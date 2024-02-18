@@ -159,7 +159,10 @@
 @media (max-width: 900px) {
     #logo>img {
     width: 70%;
-}
+    }
+    #menu>#botoes {
+        width: 90%;
+    }
     #menu {
         flex-direction: column;
         justify-content: center;
