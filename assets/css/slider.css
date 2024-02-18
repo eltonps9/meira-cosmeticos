@@ -1,0 +1,247 @@
+.ContainerIndex {
+    width: 100%;
+    height: 445px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.botoes {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.prev,
+.prev2 {
+    left: -45%;
+    display: flex;
+}
+
+.next,
+.next2 {
+    display: flex;
+    right: -45%;
+}
+
+.botoes>img {
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 50px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.411);
+    cursor: pointer;
+    box-shadow: 1px 0 6px rgba(148, 148, 148, 0.781);
+}
+
+.botoes>img:hover {
+    background-color: rgba(148, 148, 148, 0.781);
+}
+
+.CorpoProdutos {
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: ease-in-out 4s;
+}
+
+.CorpoSlider {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.Sliders {
+    width: 230px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Sliders>img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 60%;
+}
+
+.Sliders>.valor {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 3px rgba(148, 148, 148, 0.781);
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.valor>button {
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    background-color: rgba(148, 148, 148, 0.781);
+}
+
+.valor>button:hover {
+    background-color: rgba(148, 148, 148, 0.918);
+}
+
+.valor>p {
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+}
+
+
+/* slider banner */
+
+.slider {
+    width: 100vw;
+    height: 445px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slides {
+    height: 100%;
+    display: flex;
+}
+
+.slider_img {
+    width: 100vw;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider_img>img {
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+@media (min-width: 901px) {
+    #Home>ul {
+        display: flex;
+    }
+}
+
+@media (max-width: 900px) {
+    #menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #menu>form {
+        display: none;
+    }
+    #container_header {
+        position: relative;
+    }
+    #Home {
+        background-color: #ffffff;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0 40px;
+    }
+    #Home>ul {
+        z-index: 3;
+        display: none;
+        top: 0;
+        right: 0;
+        position: absolute;
+        flex-direction: column;
+        width: 70%;
+        justify-content: flex-start;
+        height: 100vh;
+        background-color: rgb(85, 85, 85);
+    }
+    #Home>ul>li {
+        height: 70px;
+    }
+    #Home>ul>li>.fechar {
+        justify-content: flex-end;
+        align-items: flex-start;
+        color: white;
+        padding: 10px 30px;
+        font-size: 45px;
+        display: flex;
+    }
+    #Home>img {
+        display: flex;
+    }
+    .media {
+        display: none;
+    }
+    .CorpoSlider {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+    .Sliders {
+        width: 20%;
+    }
+    #formulario {
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 70%;
+    }
+    .msg {
+        height: 30%;
+        width: 90%;
+    }
+    .slider {
+        height: 70%;
+    }
+    .containerAnuncio {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #anuncio {
+        height: 300px;
+    }
+    .anuncio {
+        width: 35%;
+        height: 110px;
+    }
+    .anuncio>img {
+        width: 80%;
+    }
+    .prev,
+    .prev2 {
+        left: -35%;
+    }
+    .next,
+    .next2 {
+        right: -35%;
+    }
+}

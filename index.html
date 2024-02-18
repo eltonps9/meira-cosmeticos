@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meira Cosmeticos</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/geral.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+</head>
+
+<body>
+    <!--cabeçalho do site-->
+    <header>
+        <div id="container_header">
+            <div id="up_container">
+                <div id="logo">
+                    <img src="./assets/images/logo.png" alt="Logo">
+                </div>
+                <div id="menu">
+                    <form action="#" method="get">
+                        <input id="input" type="search" placeholder="Procure por seu produto" id="pesquisar">
+                    </form>
+                    <div id="botoes">
+                        <a id="telefone" class="botao_header" onclick="whatsapp()">
+                            <img class="img_header" src="https://img.icons8.com/ios-glyphs/30/22C3E6/phone--v1.png" alt="icone do telefone">
+                            <div class="detalhes">
+                                (77)000000000
+                            </div>
+                        </a>
+                        <a id="logar" class="botao_header" onclick="login()">
+                            <img class="img_header" src="https://img.icons8.com/glyph-neue/64/22C3E6/user-group-woman-woman.png" alt="icone de boneco">
+                            <div class="detalhes">
+                                Fazer login
+                            </div>
+                        </a>
+                        <a id="carrinho" class="botao_header" onclick="carrinho()">
+
+                            <img class="img_header" src="https://img.icons8.com/pastel-glyph/64/22C3E6/paper-bag--v2.png" alt="icone do carrinho">
+                            <div class="detalhes">
+                                Minhas compras
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="containerLogin" style="display:none;">
+                    fazer login aqui
+                </div>
+                <div id="carrinho" style="display:none;">
+                    minhas compras
+                </div>
+            </div>
+            <nav id="Home">
+                <img onclick="menu()" class="fechar" src="https://img.icons8.com/ios-filled/50/menu--v1.png" alt="menu">
+                <ul id="ul">
+                    <li><a onclick="menu()" class="fechar">x</a></li>
+                    <li><a href="" id="Meditação">Meditação</a></li>
+                    <li><a href="" id="cabelo">Cabelos</a></li>
+                    <li><a href="" id="unha">Unhas</a></li>
+                    <li><a href="" id="acessorio">Acessórios</a></li>
+                    <li><a href="" id="sobrancelha">Sobrancelhas</a></li>
+                    <li><a href="" id="video">Videos</a></li>
+                    <li><a href="" id="HomeCare">Home care</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--fim do cabeçalho-->
+
+    <!--innicio do slide-->
+    <section class="slider">
+        <div class="slides">
+            <div class="slider_img"><img src="https://img.freepik.com/vetores-premium/salao-de-spa-modelo-de-banner-de-poster-de-cosmeticos-design-simples-para-midias-sociais_618890-230.jpg?w=900" alt=""></div>
+            <div class="slider_img"><img src="https://img.freepik.com/vetores-premium/modelo-de-banner-de-grande-venda-de-salao-de-cosmeticos-design-simples_618890-640.jpg?w=740" alt=""></div>
+            <div class="slider_img"><img src="https://img.freepik.com/vector-premium/diseno-simple-plantilla-banner-gran-venta-salon-cosmetico_618890-634.jpg?w=2000" alt=""></div>
+        </div>
+    </section>
+    <section id="anuncio">
+        <strong>Anúncios</strong>
+        <div class="containerAnuncio">
+            <div class="anuncio">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_908384-MLB50479183270_062022-O.webp" alt="">
+            </div>
+            <div class="anuncio">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_661237-MLB49703518461_042022-O.webp" alt="">
+            </div>
+            <div class="anuncio">
+                <img src="https://static.wixstatic.com/media/86fd4e_8c97d6edeb48439887e73026039b1d17~mv2.jpg/v1/fill/w_1527,h_1018,al_c,q_90/86fd4e_8c97d6edeb48439887e73026039b1d17~mv2.webp" alt="">
+            </div>
+            <div class="anuncio">
+                <img src="https://static.wixstatic.com/media/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg/v1/fill/w_740,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg" alt="">
+            </div>
+            <div class="anuncio media">
+                <img src="https://static.wixstatic.com/media/86fd4e_29fc9cf61d6643ed81b6acd50e51f919~mv2.jpg/v1/fill/w_740,h_559,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_29fc9cf61d6643ed81b6acd50e51f919~mv2.jpg" alt="">
+            </div>
+            <div class="anuncio media">
+                <img src="https://static.wixstatic.com/media/86fd4e_f43a3f307a7f4de090163df44a01930a~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_f43a3f307a7f4de090163df44a01930a~mv2.jpg" alt="">
+            </div>
+            <div class="anuncio media">
+                <img src="https://static.wixstatic.com/media/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg/v1/fill/w_740,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg" alt="">
+            </div>
+            <div class="anuncio media">
+                <img src="https://static.wixstatic.com/media/86fd4e_4404a4d99c464148962ef8b3164638b8~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_4404a4d99c464148962ef8b3164638b8~mv2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- produtos amostra-->
+    <div class="titulo">
+        <h3>Novos cremes</h3>
+    </div>
+    <section id="containerProdutos" class="ContainerIndex">
+        <div class="containerButtons botoes">
+            <img src="https://img.icons8.com/ios/50/double-left.png" onclick="prevProdutos()" class="prev" alt="prev">
+            <img src="https://img.icons8.com/ios/50/double-right.png" onclick="nextProdutos()" class="next" alt="next">
+        </div>
+        <div class="slidesProdutos CorpoProdutos">
+            <div class="containerProdutos CorpoSlider">
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_908384-MLB50479183270_062022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_fa6d10c8ccc8425ebfc32ea97ec66192~mv2.png/v1/fill/w_1742,h_1018,al_c,q_90/86fd4e_fa6d10c8ccc8425ebfc32ea97ec66192~mv2.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_8c97d6edeb48439887e73026039b1d17~mv2.jpg/v1/fill/w_1527,h_1018,al_c,q_90/86fd4e_8c97d6edeb48439887e73026039b1d17~mv2.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg/v1/fill/w_740,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="containerProdutos CorpoSlider  media">
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_29fc9cf61d6643ed81b6acd50e51f919~mv2.jpg/v1/fill/w_740,h_559,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_29fc9cf61d6643ed81b6acd50e51f919~mv2.jpg" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_f43a3f307a7f4de090163df44a01930a~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_f43a3f307a7f4de090163df44a01930a~mv2.jpg" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg/v1/fill/w_740,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_9fe647470a544b029ff450ae887a341a~mv2.jpg" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://static.wixstatic.com/media/86fd4e_4404a4d99c464148962ef8b3164638b8~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/86fd4e_4404a4d99c464148962ef8b3164638b8~mv2.jpg" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider 2-->
+    <div class="titulo">
+        <h3>Novos produtos</h3>
+    </div>
+    <section id="containerProdutos2" class="ContainerIndex">
+        <div class="containerButtons2 botoes">
+            <img src="https://img.icons8.com/ios/50/double-left.png" onclick="prevProdutos2()" class="prev2" alt="prev">
+            <img src="https://img.icons8.com/ios/50/double-right.png" onclick="nextProdutos2()" class="next2" alt="next">
+        </div>
+        <div class="slidesProdutos2 CorpoProdutos">
+            <div class="containerProdutos2 CorpoSlider">
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_661237-MLB49703518461_042022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_730190-MLB51558789910_092022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_898021-MLB50403699299_062022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_900923-MLB50479213062_062022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class=" containerProdutos2 CorpoSlider  media">
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_656107-MLB50479134376_062022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_897084-MLB50479202094_062022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_661237-MLB49703518461_042022-O.webp" alt="">
+                    <div class="valor">
+                        <p>especificacoes</p>
+                        <p>R$ 85,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produtoSlider2  Sliders">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_958145-MLB49704294695_042022-O.webp" alt="">
+                    <div class="valor">
+                        <div class="contInt">
+                            <p>especificacoes</p>
+                            <p>R$ 85,00</p>
+                        </div>
+                        <button>Comprar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- area de cadastro-->
+    <footer id="cadastro">
+        <form action="cadastro.php" method="post" id="formulario">
+            <input type="text" name="nome" id="nome" placeholder="Seu nome">
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+        <div class="msg">
+            <strong>O que é Lorem Ipsum?</strong>
+            <p>
+                Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição tipográfica.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

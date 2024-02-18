@@ -1,0 +1,150 @@
+header {
+    width: 100%;
+    height: 150px;
+}
+
+#container_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#up_container {
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#up_container>#logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo>img {
+    width: 30%;
+    height: auto;
+}
+
+#up_container>#menu {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu>form {
+    width: 60%;
+    height: 50px;
+}
+
+form>#input {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 1px solid #777777;
+    font-size: 15px;
+    padding-left: 15px;
+    outline: 0;
+}
+
+form>#input::placeholder {
+    color: #777777;
+}
+
+#menu>#botoes {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#botoes>a {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#botoes>a>.img_header {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#botoes>#logar {
+    border-left: .7px solid #53d2f8;
+    border-right: .7px solid #53d2f8;
+}
+
+.botao_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao_header>.detalhes {
+    display: none;
+    color: #53d2f8;
+}
+
+.botao_header:hover .detalhes {
+    display: flex;
+}
+
+#Home {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    background: linear-gradient(180deg, rgba(161, 161, 161, 0.144), rgba(83, 210, 248, 0.623) 85%);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Home>img {
+    width: 40px;
+    height: auto;
+    display: none;
+}
+
+#Home>ul {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#Home>ul>li {
+    width: 100%;
+    height: 100%;
+}
+
+#Home>ul>li>.fechar {
+    display: none;
+}
+
+#Home>ul>li>a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(161, 161, 161);
+}
+
+#Home>ul>li>a:hover {
+    background-color: rgba(161, 161, 161, 0.788);
+    color: #fff;
+}
