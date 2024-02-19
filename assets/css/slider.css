@@ -161,7 +161,7 @@
     width: 70%;
     }
     #menu>#botoes {
-        width: 90%;
+        width: 100%;
     }
     #menu {
         flex-direction: column;
